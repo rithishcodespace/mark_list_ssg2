@@ -4,7 +4,7 @@ const cors = require("cors");
 const authRoute = require("./routes/authRoute");
 const markRoute = require("./routes/markRoute");
 const mysql = require("./database")
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const app = express();
 
 app.use(express.json());

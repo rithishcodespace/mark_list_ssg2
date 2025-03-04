@@ -73,7 +73,7 @@ let MarkEntryPage = () =>{
                         }} className=" border-black border-2 w-72 rounded-sm mb-2 h-10" placeholder="Chemistry Mark"/></label></td></tr>
                     </tbody>
                 </table>   
-                        <button className="bg-black text-yellow-400 p-1.5 rounded-lg mt-2" onClick={handleSubmit}>Submit</button>
+                        <button className="bg-black text-yellow-400 p-1.5 rounded-lg mt-2 cursor-pointer" onClick={handleSubmit}>Submit</button>
             </div>
         </div>
     )

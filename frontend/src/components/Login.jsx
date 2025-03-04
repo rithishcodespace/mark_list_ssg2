@@ -42,7 +42,7 @@ const Login = () => {
         <div className="flex justify-center items-center bg-amber-400 h-64 flex-col w-96 rounded-xl border-separate gap-2 border border-white">
            <input type="text" required onChange={(e)=>setemailId(e.target.value)} className="h-10 w-64 bg-black rounded-md border border-white text-yellow-400 placeholder:text-amber-400" placeholder="  Enter emailId"/>
            <input type="password" required onChange={(e)=>setpassword(e.target.value)} className="h-10 w-64 bg-black rounded-md border border-white text-yellow-400 placeholder:text-amber-400" placeholder="  Enter password"/>
-           <button className="bg-black text-yellow-400 rounded-lg p-1.5 relative top-[45px]" onClick={handleClick}>Login</button>
+           <button className="bg-black text-yellow-400 rounded-lg p-1.5 relative top-[45px] cursor-pointer" onClick={handleClick}>Login</button>
         </div>
       </div>
     );
